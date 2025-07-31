@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahi Patel - Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Background -->
+    <div class="desktop-background"></div>
+    
+    <!-- Sidebar Dock -->
+    <div class="sidebar-dock">
+        <div class="dock-item" data-section="home" title="Home">
+            <div class="dock-icon">🏠</div>
+        </div>
+        <div class="dock-item" data-section="about" title="About Me">
+            <div class="dock-icon">👤</div>
+        </div>
+        <div class="dock-item" data-section="projects" title="Projects">
+            <div class="dock-icon">💼</div>
+        </div>
+        <div class="dock-item" data-section="contact" title="Contact">
+            <div class="dock-icon">📧</div>
+        </div>
+        <div class="dock-item" data-section="resume" title="Resume">
+            <div class="dock-icon">📄</div>
+        </div>
+        <div class="dock-item" data-section="github" title="GitHub">
+            <div class="dock-icon">🐙</div>
+        </div>
+        <div class="dock-item" data-section="linkedin" title="LinkedIn">
+            <div class="dock-icon">💼</div>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Home Window -->
+        <div class="window" id="home-window" style="display: none;">
+            <div class="window-header">
+                <div class="window-title">Home</div>
+                <div class="window-controls">
+                    <button class="control-btn minimize">−</button>
+                    <button class="control-btn maximize">□</button>
+                    <button class="control-btn close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="home-content">
+                    <h1>Hi, I'm Mahi Patel 👋</h1>
+                    <p class="tagline">Aspiring QA & Python Developer with a passion for automation and clean code.</p>
+                    <div class="welcome-animation">
+                        <div class="code-snippet">
+                            <span class="code-line"><span class="keyword">def</span> <span class="function">welcome</span>():</span>
+                            <span class="code-line">    <span class="keyword">return</span> <span class="string">"Let's build something amazing!"</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Window -->
+        <div class="window" id="about-window" style="display: none;">
+            <div class="window-header">
+                <div class="window-title">About Me</div>
+                <div class="window-controls">
+                    <button class="control-btn minimize">−</button>
+                    <button class="control-btn maximize">□</button>
+                    <button class="control-btn close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="about-content">
+                    <div class="profile-section">
+                        <div class="profile-avatar">MP</div>
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="about-details">
+                        <p>🎓 Final-year B.Tech Computer Engineering student from Ganpat University</p>
+                        <p>🔍 Interested in QA Automation and Python Scripting</p>
+                        <div class="skills-section">
+                            <h3>Skills & Technologies</h3>
+                            <div class="skills-grid">
+                                <span class="skill-tag">Selenium</span>
+                                <span class="skill-tag">PyTest</span>
+                                <span class="skill-tag">Manual Testing</span>
+                                <span class="skill-tag">API Testing</span>
+                                <span class="skill-tag">Flask</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="strengths">
+                            <h3>Core Strengths</h3>
+                            <ul>
+                                <li>Strong communication skills</li>
+                                <li>Problem-solving mindset</li>
+                                <li>Excellent teamwork abilities</li>
+                                <li>Attention to detail</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Window -->
+        <div class="window" id="projects-window" style="display: none;">
+            <div class="window-header">
+                <div class="window-title">Projects</div>
+                <div class="window-controls">
+                    <button class="control-btn minimize">−</button>
+                    <button class="control-btn maximize">□</button>
+                    <button class="control-btn close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="projects-content">
+                    <h2>My Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>Chat App</h3>
+                            <p class="tech-stack">React + Node.js</p>
+                            <p>Real-time chat application using Firebase & MySQL for seamless communication.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Crazy Bing Bot</h3>
+                            <p class="tech-stack">Python + Selenium</p>
+                            <p>Automated search bot using browser automation for efficient web scraping.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Movie Finder App</h3>
+                            <p class="tech-stack">HTML + JavaScript</p>
+                            <p>API-based responsive application to discover and explore movies.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Mood Melody Bot</h3>
+                            <p class="tech-stack">Python + Spotipy</p>
+                            <p>Mood-based music player that curates playlists using Spotify API.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>GCP Web App</h3>
+                            <p class="tech-stack">Python + Google App Engine</p>
+                            <p>Cloud-deployed web application using Google Cloud Platform hosting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Window -->
+        <div class="window" id="contact-window" style="display: none;">
+            <div class="window-header">
+                <div class="window-title">Contact</div>
+                <div class="window-controls">
+                    <button class="control-btn minimize">−</button>
+                    <button class="control-btn maximize">□</button>
+                    <button class="control-btn close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="contact-content">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>mahi23032005patel@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>9054527292</span>
+                        </div>
+                    </div>
+                    <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resume Window -->
+        <div class="window" id="resume-window" style="display: none;">
+            <div class="window-header">
+                <div class="window-title">Resume</div>
+                <div class="window-controls">
+                    <button class="control-btn minimize">−</button>
+                    <button class="control-btn maximize">□</button>
+                    <button class="control-btn close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="resume-content">
+                    <h2>Resume</h2>
+                    <p>Download my latest resume to learn more about my experience and qualifications.</p>
+                    <a href="resume.pdf" download></a>
+                    <button class="download-btn" onclick="downloadResume()">
+                        📄 Download Resume (PDF)
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- GitHub Window -->
+        <div class="window" id="github-window" style="display: none;">
+            <div class="window-header">
+                <div class="window-title">GitHub</div>
+                <div class="window-controls">
+                    <button class="control-btn minimize">−</button>
+                    <button class="control-btn maximize">□</button>
+                    <button class="control-btn close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="social-content">
+                    <h2>GitHub Profile</h2>
+                    <p>Check out my code repositories and contributions on GitHub.</p>
+                    <a href="https://github.com/mahipatel233" target="_blank" class="social-link">
+                        🐙 Visit GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- LinkedIn Window -->
+        <div class="window" id="linkedin-window" style="display: none;">
+            <div class="window-header">
+                <div class="window-title">LinkedIn</div>
+                <div class="window-controls">
+                    <button class="control-btn minimize">−</button>
+                    <button class="control-btn maximize">□</button>
+                    <button class="control-btn close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="social-content">
+                    <h2>LinkedIn Profile</h2>
+                    <p>Connect with me professionally on LinkedIn.</p>
+                    <a href="https://www.linkedin.com/in/mahi23032005/" target="_blank" class="social-link">
+                        💼 Visit LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
